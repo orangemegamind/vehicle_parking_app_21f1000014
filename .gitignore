@@ -1,0 +1,38 @@
+# ----------------------------
+# PYTHON
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local SQLite databases
+instance/
+*.db
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Celery
+celerybeat-schedule*
+celerybeat.pid
+
+# Logs
+*.log
+
+# ----------------------------
+# NODE / VUE
+# ----------------------------
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# ----------------------------
+# OS / EDITOR
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
